@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 
 //middleware
-app.use("/api/user", router) //http://localhost:3000/api/user
+app.use("/api/user", router) 
 
 //blog route
 app.use("/api/blog", blogrouter)
